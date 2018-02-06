@@ -1,0 +1,41 @@
+header {
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 360px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  background: orange;
+  border-radius: 10px;
+  height: 80px;
+  margin-bottom: 10px;
+  width: 340px;
+}
+
+section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third {
+  background: lightgreen;
+  height: 250px;
+  width: 30%;
+}
+
+footer {
+  background: orange;
+  height: 70px;
+}
