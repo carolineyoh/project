@@ -11,9 +11,17 @@ body {
   font-family: sans-serif;
 }
 
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 20px;
+}
+
 section {
-  background: green;
-  margin-bottom: 20px;
+/*  background: green; */
+  margin-bottom: 0px;
   margin-top: 0px;
 }
 
@@ -23,9 +31,9 @@ section {
 }
 
 .column {
-  background: pink;
+/*  background: pink; */
   width: 30%;
-  height: 600px;
+  height: 680px;
   margin-right: 20px;
 }
 
@@ -35,28 +43,61 @@ nav {
 }
 
 .nav-item {
-  background: orange;
-  height: 80px;
+/*  background: orange;*/
+  height: 70px;
   margin-bottom: 10px;
-  width: 100%;
+  width: 97%;
+  padding-top: 14px;
+  padding-left: 10px;
+  border-bottom: 1px solid black;
 }
 
-.nav-item a {
+.nav-item a:link {
   font-weight: bold;
-  font-size: 70px;
+  font-size: 56px;
   color: black;
   text-decoration: none;
 }
 
-/*
-.third {
-  background: lightgreen;
-  height: 250px;
-  width: 30%;
+.nav-item a:visited {
+  font-weight: bold;
+  font-size: 56px;
+  color: black;
+  text-decoration: none;
 }
-*/
+
+.nav-item a:hover {
+  font-weight: bold;
+  font-size: 56px;
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.nav-item a:active {
+  font-weight: bold;
+  font-size: 56px;
+  color: yellow;
+  text-decoration: none;
+}
+
+img {
+  padding-top: 20px;
+}
 
 footer {
-  background: orange;
-  height: 70px;
+/*  background: orange; */
+  height: 50px;
+  margin-top: 10px;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+    letter-spacing: 16px;
+}
+
+iframe {
+  padding-top: 20px;
 }
