@@ -116,6 +116,7 @@ footer {
 /*  background: orange; */
   height: 50px;
   margin-top: 10px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -153,8 +154,8 @@ iframe {
     height: 24px;
     position: fixed;
     background: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-right: 5px;
   }
 
@@ -180,7 +181,7 @@ iframe {
     /* background: blue; */
     width: 100%;
     height: 380px;
-    margin-top: -14px;
+    margin-top: -17px;
   }
 
   .allsections {
@@ -203,6 +204,11 @@ iframe {
     width: 94%;
     margin-left: 10px;
     margin-right: 15px;
+  }
+
+  iframe {
+    padding-top: 20px;
+    height: 190px;
   }
 
 }
